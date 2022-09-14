@@ -1,0 +1,40 @@
+INSERT INTO Brand(Id, Name)
+VALUES(1, 'New Balance');
+INSERT INTO Brand(Id, Name)
+VALUES(2, 'Nike');
+INSERT INTO Brand(Id, Name)
+VALUES(3, 'Adidas');
+
+
+
+
+INSERT INTO Product(Id, BrandId, ProductName, GraphicName, CostPrice, MSRP, QtyOnHand, QtyOnBackOrder, Description)
+VALUES('NB_1', 1,'Fresh Foam More Running Shoe','NB_FreshFoam.png', 164.95, 112, 2, 7,'Stability; offers maximum durability fused with flexible cushioning and side support.');
+INSERT INTO Product(Id, BrandId, ProductName, GraphicName, CostPrice, MSRP, QtyOnHand, QtyOnBackOrder, Description)
+VALUES('NB_2', 1, '1080v10 Running Shoe', 'NB_1080v10.png', 149.99, 100.5, 5, 2, 'Cushioning: absorbs impact and distributes weight for consistent, buoyant comfort under each step.');
+INSERT INTO Product(Id, BrandId, ProductName, GraphicName, CostPrice, MSRP, QtyOnHand, QtyOnBackOrder, Description)
+VALUES('NB_3', 1,'990v5 Sneaker', 'NB_990v5.png', 184.95, 135.99, 3, 8, 'Stability; offers maximum durability fused with flexible cushioning and side support.');
+INSERT INTO Product(Id, BrandId, ProductName, GraphicName, CostPrice, MSRP, QtyOnHand, QtyOnBackOrder, Description)
+VALUES('NB_4', 1, 'Fresh Foam MOR Running Shoe', 'NB_FreshFoamMOR.png', 164.99, 115.99, 5, 2, 'Stability; offers maximum durability fused with flexible cushioning and side support.');
+INSERT INTO Product(Id, BrandId, ProductName, GraphicName, CostPrice, MSRP, QtyOnHand, QtyOnBackOrder, Description)
+VALUES('NB_5', 1, 'Fresh Foam Beacon v3 Running Shoe', 'NB_ BeaconV3.png', 119.99, 89.99, 5, 10, 'Lightweight: puts cushioning and performance underfoot with an emphasis on streamlined comfort.');
+INSERT INTO Product(Id, BrandId, ProductName, GraphicName, CostPrice, MSRP, QtyOnHand, QtyOnBackOrder, Description)
+VALUES('NK_1', 2, 'Air Max 270 Sneaker','NK_ AirMax270.png', 150, 129.99, 3, 5, 'Cushioning: absorbs impact and distributes weight for consistent, buoyant comfort under each step.');
+INSERT INTO Product(Id, BrandId, ProductName, GraphicName, CostPrice, MSRP, QtyOnHand, QtyOnBackOrder, Description)
+VALUES('NK_2', 2, 'Air VaporMax 2021 FK Sneaker', 'NK_ AirVaporMax.png', 200, 189.99, 3, 7, 'Cushioning: absorbs impact and distributes weight for consistent, buoyant comfort under each step.');
+INSERT INTO Product(Id, BrandId, ProductName, GraphicName, CostPrice, MSRP, QtyOnHand, QtyOnBackOrder, Description)
+VALUES('NK_3', 2, 'Air Max 2090 Sneaker', 'NK_ AirMax2090.png', 150, 119.99, 8, 10, 'Cushioning: absorbs impact and distributes weight for consistent, buoyant comfort under each step.');
+INSERT INTO Product(Id, BrandId, ProductName, GraphicName, CostPrice, MSRP, QtyOnHand, QtyOnBackOrder, Description)
+VALUES('NK_4', 2, 'Blazer Mid 77 SE Sneaker', 'NK_ BlazerMid77.png', 110, 89.99, 5, 7, 'Autoclave construction fuses the layers for a streamlined look.');
+INSERT INTO Product(Id, BrandId, ProductName, GraphicName, CostPrice, MSRP, QtyOnHand, QtyOnBackOrder, Description)
+VALUES('NK_5', 2, 'Air Max 97 Sneaker', 'NK_Max97.png', 170, 135, 8, 10, 'Cushioning: absorbs impact and distributes weight for consistent, buoyant comfort under each step.');
+INSERT INTO Product(Id, BrandId, ProductName, GraphicName, CostPrice, MSRP, QtyOnHand, QtyOnBackOrder, Description)
+VALUES('AD_1', 3, 'Supernova Running Shoe', 'AD_Supernova.png', 100, 49.99, 7, 5, 'Support: enhances the fit with targeted contouring and cushioning in the footbed.');
+INSERT INTO Product(Id, BrandId, ProductName, GraphicName, CostPrice, MSRP, QtyOnHand, QtyOnBackOrder, Description)
+VALUES('AD_2', 3, 'Sleek Super Sneaker', 'AD_Sleek.png', 90, 45, 8, 5, 'Leather or synthetic upper/synthetic or synthetic and textile.');
+INSERT INTO Product(Id, BrandId, ProductName, GraphicName, CostPrice, MSRP, QtyOnHand, QtyOnBackOrder, Description)
+VALUES('AD_3', 3, 'Futurenatural Knit Running Shoe', 'AD_Futurenatural.png', 120, 84, 9, 11, 'Textile and synthetic upper/textile lining/synthetic sole.');
+INSERT INTO Product(Id, BrandId, ProductName, GraphicName, CostPrice, MSRP, QtyOnHand, QtyOnBackOrder, Description)
+VALUES('AD_4', 3, 'UltraBoost DNA Primeblue Running Shoe', 'AD_UltraBoost.png', 180, 148, 7, 12, 'Stability: helps maintain comfortable foot alignment with targeted cushioning and support.');
+INSERT INTO Product(Id, BrandId, ProductName, GraphicName, CostPrice, MSRP, QtyOnHand, QtyOnBackOrder, Description)
+VALUES('AD_5', 3, 'Terrex Trailmaker Hiking Shoe', 'AD_Terrex.png', 157.5, 107.54, 12, 0, 'Trail: provides superior stability and traction on hills, uneven surfaces and changing terrain.');
